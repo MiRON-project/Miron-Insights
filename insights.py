@@ -6,7 +6,7 @@ import sys
 
 repos = ['MIRON-Components', 'MIRON-Systems',
          'DomainModelsRepositories', 'MIRON-BehaviorRepository',
-         'MIRON-DataRepository', 'Groot', 'MOOD2Be']
+         'MIRON-DataRepository']
 
 unique_view = ['Unique Views']
 total_view = ['Views Count']
@@ -15,8 +15,7 @@ total_clone = ['Clones Count']
 
 if __name__ == "__main__":
     a = sys.argv[1]
-    b = sys.argv[2]
-    g = Github(a, b)
+    g = Github(a)
     for org in g.get_user().get_orgs():
         if org.name == 'MiRoN':
             for r in repos:

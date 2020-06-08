@@ -11,11 +11,12 @@ Navigate to the folder Miron-Insights and run:
 
 `python3 insights.py "token"`
 
-Replace "username" and "password" with your info.
+Replace "token" your token.
+Note: you must have access to read this Organization (member)
 
 You should get something like this, in terminal:
 
-`['Unique Views', 4, 8, 3, 5, 1, 0, 0]  
+`['Unique Views', 4, 8, 3, 5, 1, 0, 0]
 ['Views Count', 59, 51, 18, 13, 4, 0, 0]  
 ['Unique Clones', 1, 0, 5, 1, 1, 0, 0]  
 ['Views Count', 59, 51, 18, 13, 4, 0, 0]`

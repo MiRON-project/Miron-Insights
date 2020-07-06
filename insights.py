@@ -6,7 +6,8 @@ import sys
 
 repos = ['MIRON-Components', 'MIRON-Systems',
          'DomainModelsRepositories', 'MIRON-BehaviorRepository',
-         'MIRON-DataRepository']
+         'MIRON-DataRepository', 'ZMQServer', 'DataRepository', 'MOOD2Be',
+         'MIRON-Modeling-Tools', 'MIRON-Roqme']
 
 unique_view = ['Unique Views']
 total_view = ['Views Count']

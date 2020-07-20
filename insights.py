@@ -28,7 +28,7 @@ if __name__ == "__main__":
                 unique_clone.append(clones.get('uniques'))
                 total_clone.append(clones.get('count'))
 
-    with open(datetime.today().strftime('%Y-%m-%d') + '.csv', mode='w') as file:
+    with open('report/'+datetime.today().strftime('%Y-%m-%d') + '.csv', mode='w') as file:
         writer = csv.writer(file, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
 
         writer.writerow([' '] + repos + ['Total'])
